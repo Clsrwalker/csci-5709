@@ -1,0 +1,8 @@
+[build]
+  base = "csci5709/tutorials/tutorial1"
+  command = "npm run build"
+  publish = "dist"
+
+# optional: set node version for consistency
+[build.environment]
+  NODE_VERSION = "20"
