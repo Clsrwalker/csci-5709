@@ -7,7 +7,7 @@ function Profile() {
     return (
       <section className="card">
         <h2>Profile</h2>
-        <p className="helper">No profile data found. Please register first.</p>
+        <p className="helper">No profile data found.Please register first.</p>
         <Link to="/" className="link">Go to Registration</Link>
       </section>
     )

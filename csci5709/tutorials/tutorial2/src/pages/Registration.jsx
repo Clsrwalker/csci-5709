@@ -22,7 +22,6 @@ function Registration() {
     const { name, value } = event.target
     setForm((prev) => ({ ...prev, [name]: value }))
   }
-
   const validate = () => {
     const nextErrors = {}
 
@@ -41,7 +40,7 @@ function Registration() {
     if (!form.email.trim()) {
       nextErrors.email = 'Email is required.'
     } else if (!emailRegex.test(form.email.trim())) {
-      nextErrors.email = 'Email must be a valid format (e.g., jon_snow@westeros.com).'
+      nextErrors.email = 'Email must be a valid format.'
     }
 
     if (!form.password) {
@@ -49,7 +48,7 @@ function Registration() {
     } else if (form.password.length < 8) {
       nextErrors.password = 'Password must be at least 8 characters.'
     } else if (!passwordRegex.test(form.password)) {
-      nextErrors.password = 'Password can include letters, numbers, and special characters only.'
+      nextErrors.password = 'Password can include letters,numbers,and special characters only.'
     }
 
     if (!form.confirmPassword) {
@@ -116,7 +115,7 @@ function Registration() {
             type="text"
             value={form.email}
             onChange={handleChange}
-            placeholder="jon_snow@westeros.com"
+            placeholder="jon_snow@dal.ca"
           />
           {errors.email && <span className="error">{errors.email}</span>}
         </div>

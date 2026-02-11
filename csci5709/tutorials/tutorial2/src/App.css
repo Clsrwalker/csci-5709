@@ -24,7 +24,6 @@
   max-width: 720px;
   margin: 0 auto;
 }
-
 .card {
   background: #ffffff;
   border-radius: 12px;
@@ -32,7 +31,6 @@
   border: 1px solid #e7ecf3;
   box-shadow: 0 12px 30px rgba(31, 41, 55, 0.08);
 }
-
 .helper {
   margin: 0 0 16px;
   color: #5c6b73;
