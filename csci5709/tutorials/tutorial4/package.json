@@ -1,0 +1,14 @@
+{
+  "name": "tutorial4",
+  "version": "1.0.0",
+  "description": "Tutorial 4 backend APIs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
