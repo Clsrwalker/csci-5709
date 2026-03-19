@@ -7,8 +7,8 @@ Last Modification Date: 19 Mar 2026
 
 Repository (GitHub): https://github.com/Clsrwalker/csci-5709
 Repository Path: https://github.com/Clsrwalker/csci-5709/tree/main/csci5709/tutorials/tutorial6
-GitLab Mirror: 
-Deployment Link: 
+GitLab Mirror: https://git.cs.dal.ca/xiangl/csci-5709/-/tree/main/csci5709/tutorials/tutorial6?ref_type=heads
+Deployment Link: https://csci-5709-t6.onrender.com/users
 
 Overview:
 Tutorial 6 implements a Node.js REST API connected to MongoDB Atlas.
@@ -56,5 +56,5 @@ Code References:
 
 
 Artificial Intelligence Tools Used:
-- chatgpt was used to daft documentation
+- chatgpt was used to drafting documentation
   All generated code was reviewed and modified before use.
