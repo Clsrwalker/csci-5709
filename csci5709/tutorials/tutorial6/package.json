@@ -1,0 +1,19 @@
+{
+  "name": "tutorial6",
+  "version": "1.0.0",
+  "description": "CSCI 5709 Tutorial 6 REST API with MongoDB Atlas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "mongodb": "^6.17.0"
+  }
+}
